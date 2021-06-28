@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>VTI Academy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- import bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- import file css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="jumbotron hidden-xs" style="line-height: 40px;">
+        <div class="container-fluid " style="line-height: 40px;">
+            <div class="row">
+                <div class="col-sm-9">
+                    <ul class="contact" style="list-style: none; display: inline-flex; ">
+                        <li style="margin-right: 50px; line-height: 40px;">
+                            <a href="tel:0865359388" style="color: rgb(253, 253, 253); text-decoration: none; font-size: 20px; line-height: 40px;">
+                                <i class="fa fa-phone"> Cơ sở Lê Thanh Nghị: </i><a href="" style="font-size: 20px;font-weight: 300; color: rgba(255, 220, 19, 0.829);"> 0865 359 388</a>
+                            </a>
+                        </li>
+                        <li style="margin-right: 50px;">
+                            <a href="tel:0866805563" style="color: rgb(253, 253, 253); text-decoration: none; font-size: 20px; line-height: 40px;">
+                                <i class="fa fa-phone"> Cơ sở Duy Tân: </i><a href="" style="font-size: 20px;font-weight: 300; color: rgba(255, 220, 19, 0.829);"> 0866 805 563</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:info@vtiacademy.edu.vn" style="color: rgb(253, 253, 253); text-decoration: none; font-size: 20px; line-height: 40px;">
+                                <i class="fa fa-envelope"> info@vtiacademy.edu.vn</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3" style="text-align: center;">
+                    <ul class="social" style="list-style: none; display: inline-flex; ">
+                        <li style="margin-right: 15px;"><a href="https://www.facebook.com/VTIAcademy" target="_blank" style="color:white; font-size: 20px;"><i class="fa fa-facebook"></i></a></li>
+                        <li style="margin-right: 15px;"><a href="https://www.facebook.com/VTIAcademy" target="_blank" style="color:white; font-size: 20px;"><i class="fa fa-twitter"></i></a></li>
+                        <li style="margin-right: 15px;"><a href="https://www.facebook.com/VTIAcademy" target="_blank" style="color:white; font-size: 20px;"><i class="fa fa-instagram"></i></a></li>
+                        <li style="margin-right: 15px;"><a href="https://www.facebook.com/VTIAcademy" target="_blank" style="color:white; font-size: 20px;"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" style="color:white; font-size: 20px;"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navbar - menu -->
+    <nav class="navbar  navbar-inverse" style="background-color: white; border: none;">
+        <div class="container-fluid">
+            <div class="navbar-header col-sm-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color: rgb(44, 80, 149); padding: 9px 9px;
+                margin-right: -10px;
+                margin-top: 25px;
+                margin-bottom: 8px;">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- <a class="navbar-brand" href="#">VTI ACADEMY</a> -->
+                <a href=""><img class="width-img-moblie" src="./img/vti.jpg" alt="VTI Academy"></a>
+            </div>
+            <div class="collapse navbar-collapse col-sm-11" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Về chúng tôi</a></li>
+                    <li><a href="#">Khoá học</a></li>
+                    <li><a href="#">Đạo tạo doanh nghiệp</a></li>
+                    <li><a href="#">Đối tác</a></li>
+                    <li><a href="#">Học viên</a></li>
+                    <li><a href="#">Chuyên gia</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="" style="font-size: 24px; padding-bottom: 10px;"><i class="fa fa-search"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- baner - slide -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="./img/banner.jpg" alt="Image">
+                <div class="carousel-caption">
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./img/banner1.jpg" alt="Image">
+                <div class="carousel-caption">
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <br>
+
+
+    <div class="container row text-center" style="margin: auto;">
+        <img src="./img/img1.jpg" alt="" style="width: 100%;">
+    </div>
+    <div class="container row text-center" id="btn" style="margin: auto;">
+        <a href="https://vtiacademy.edu.vn/ly-do-tai-sao-nen-hoc-lap-trinh-tai-vti-academy" target="_blank"><button> Xem thêm về điểm khác biệt của VTI Academy</button></a>
+    </div>
+    <br>
+
+    <!-- Chúng tôi mang đến cho bạn? -->
+    <div class="container text-center">
+        <div class="row">
+            <h1 class="row" style="font-weight: bold;  margin-left: 0px;
+            margin-right: 0px;">CHÚNG TÔI MANG ĐẾN CHO BẠN</h1>
+            <div class="row" style="margin: auto; border-bottom: 3px solid rgb(236, 201, 4); width: 100px;margin-bottom: 20px;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4" style="text-align: right;">
+                <div class="row">
+                    <h3 class="col-sm-9">Chương trình đào tạo chuẩn doanh nghiệp</h3>
+                    <img class="col-sm-3" src="./img/10.PNG" alt="">
+                </div>
+                <div class="row" style="padding-right: 15px;
+                padding-left: 15px;">
+                    <p>Đây là chương trình huấn luyện viên mới của các tập đoàn hàng đầu Việt Nam. Chúng tôi đã có hàng chục nghìn học viên là nhân viên tại các doanh nghiệp</p>
+                </div>
+                <div class="row">
+                    <h3 class="col-sm-9">Huấn luyện viên giỏi sẽ đồng hành cùng bạn</h3>
+                    <img class="col-sm-3" src="./img/11.PNG" alt="">
+                </div>
+                <div class="row" style="padding-right: 15px;
+                padding-left: 15px;">
+                    <p>Chúng tôi có đội ngũ chuyên gia giỏi là những nhân lực chất lượng cao trong ngành Công nghệ Việt nam. Họ sẵn sàng hỗ trợ bạn ngay khi bạn cần</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <img src="./img/Capture.PNG" alt="" style="width: 350px;">
+            </div>
+
+
+            <div class="col-sm-4" style="text-align: left;">
+                <div class="row">
+                    <img class="col-sm-3" src="./img/12.PNG" alt="">
+                    <h3 class="col-sm-9">Lộ trình đào tạo điều chỉnh đến từng cá nhân</h3>
+                </div>
+                <div class="row" style="padding-right: 15px;
+                padding-left: 15px;">
+                    <p>Đây là chương trình huấn luyện viên mới của các tập đoàn hàng đầu Việt Nam. Chúng tôi đã có hàng chục nghìn học viên là nhân viên tại các doanh nghiệp</p>
+                </div>
+                <div class="row">
+                    <img class="col-sm-3" src="./img/13.PNG" alt="">
+                    <h3 class="col-sm-9">Cam kết mức lương hấp dẫn</h3>
+                </div>
+                <div class="row" style="padding-right: 15px;
+                padding-left: 15px;">
+                    <p>Chúng tôi có đội ngũ chuyên gia giỏi là những nhân lực chất lượng cao trong ngành Công nghệ Việt nam. Họ sẵn sàng hỗ trợ bạn ngay khi bạn cần</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- Đường đến DN -->
+    <div class="container text-center">
+        <h1 class="row" style="font-weight: bold;">ĐƯỜNG ĐẾN DOANH NGHIỆP</h1>
+        <div class="row" style="margin: auto; border-bottom: 3px solid rgb(236, 201, 4); width: 100px;margin-bottom: 20px;"></div>
+    </div>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-6" style="padding-left: 0px;">
+                <img style="background-size: cover; width: 100%; height: 300px; margin-right: 10px;" src="./img/Capture4.PNG" alt="">
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <h3 style="color: blue; text-align: left; font-weight: bold;margin-left: 10px;
+                    margin-right: 10px;">Hộ chiếu Lập trình viên Doanh nghiệp
+                    </h3>
+                </div>
+                <div class="row">
+                    <p style="text-align: justify;mmargin-left: 10px;
+                    margin-right: 10px;">Chương trình huấn luyện lập trình viên Full Stack cung cấp cho các bạn kiến thức về công nghệ theo tiêu chuẩn doanh nghiệp. Bao gồm kiến thức công nghệ mới nhất, kỹ năng làm việc và kiến thức quy trình phát triển phần mềm đáp ứng như
+                        cầu làm việc tại các doanh nghiệp công nghệ thông tin trong và ngoài nước</p>
+                </div>
+                <div class="row" style="background-color: rgba(189, 215, 216, 0.527); margin-left: 10px;
+                margin-right: 10px; margin: 0px;">
+                    <div class="col-sm-4">
+                        <h4 style="color: blue; text-align: left; font-weight: bold;">Thời lượng</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4 style="color: blue; text-align: left; font-weight: bold;">Thời gian học</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4 style="color: blue; text-align: left; font-weight: bold;">Học phí</h4>
+                    </div>
+                </div>
+                <div class="row" style="text-align: left; background-color: rgba(189, 215, 216, 0.527);margin-left: 10px;
+                margin-right: 10px; margin: 0px;">
+                    <div class="col-sm-4">
+                        <p>3-6 tháng</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>Theo lộ trình</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>Liên hệ</p>
+                    </div>
+                </div>
+
+                <div class="row" style="text-align: left; margin-top: 10px; color:rgb(187, 187, 18); ">
+                    <button style="border: 1px solid darkgoldenrod; padding: 5px; border-radius: 5px;margin-left: 10px;
+                    margin-right: 10px;">Xem chi
+                        tiết</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row">
+                    <h3 style="color: blue; text-align: left; font-weight: bold;margin-left: 10px;
+                    margin-right: 10px;">Chương trình cho Doanh nghiệp
+                    </h3>
+                </div>
+                <div class="row">
+                    <p style="text-align: justify;margin-left: 10px;
+                    margin-right: 10px;">Việc tổ chức đào tạo cho một lượng lớn lập trình viên là tân binh hoặc đào tạo công nghệ mới khá là tốn kém và nhiều rủi ro. Chúng tôi là đơn vị cung cấp dịch vụ đào tạo công nghệ đáp ứng như cầu của các doang nghiệp Công nghệ thông
+                        tin. Chúng tôi cam kế chất lượng đào tạo cùng dịch vụ đào tạo chuyên nghiệp.</p>
+                </div>
+                <div class="row" style="background-color: rgba(189, 215, 216, 0.527);margin-left: 10px;
+                margin-right: 10px; margin: 0px;">
+                    <div class="col-sm-4">
+                        <h4 style="color: blue; text-align: left; font-weight: bold;">Thời lượng</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4 style="color: blue; text-align: left; font-weight: bold;">Thời gian học</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4 style="color: blue; text-align: left; font-weight: bold;">Học phí</h4>
+                    </div>
+                </div>
+                <div class="row" style="text-align: left; background-color: rgba(189, 215, 216, 0.527);margin-left: 10px;
+                margin-right: 10px; margin: 0px;">
+                    <div class="col-sm-4">
+                        <p>3-6 tháng</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>Theo lộ trình</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>Liên hệ</p>
+                    </div>
+                </div>
+                <div class="row" style="text-align: left; margin-top: 10px; color:rgb(187, 187, 18); ">
+                    <button style="border: 1px solid darkgoldenrod; padding: 5px; border-radius: 5px;margin-left: 10px;
+                    margin-right: 10px; margin-bottom: 10px;">Xem chi
+                        tiết</button>
+                </div>
+            </div>
+            <div class="col-sm-6" style="padding-right: 0px;">
+                <img style="width: 100%; height: 300px;" src="./img/cap.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- HLV của chúng tôi -->
+    <div class="container text-center">
+        <h1 class="row" style="font-weight: bold;margin-left: 10px;
+        margin-right: 10px;">HUẤN LUYỆN VIÊN CỦA CHÚNG TÔI</h1>
+        <div class="row" style="margin: auto; border-bottom: 3px solid rgb(236, 201, 4); width: 100px;margin-bottom: 20px;"></div>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="./img/avt1.jpg" alt="" style="width: 300px; border-radius: 50%; border: 10px solid rgba(128, 128, 128, 0.616);" class="row">
+                <h3 class="row" style="font-weight: bold;">Trần Xuân Khôi</h3>
+                <p class="row">Chuyên gia công nghệ thông tin hàng đầu VN</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="./img/avt2.jpg" alt="" style="width: 300px; border-radius: 50%; border: 10px solid rgba(128, 128, 128, 0.616);" class="row">
+                <h3 class="row" style="font-weight: bold;">Nguyễn Quyết</h3>
+                <p class="row">Chuyên gia lập trình Asp.net</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="./img/av3.jpg" alt="" style="width: 300px; height: auto; border-radius: 50%; border: 10px solid rgba(128, 128, 128, 0.616);" class="row">
+                <h3 class="row" style="font-weight: bold;">Nguyễn Ngọc Duy</h3>
+                <p class="row">Chuyên gia Java Web</p>
+            </div>
+
+        </div>
+    </div>
+    <br>
+
+    <!-- Chọn lộ trình -->
+    <div class="container text-center" style="padding: 0px;">
+        <h1 class="row" style="font-weight: bold;margin-left: 10px;
+        margin-right: 10px;">CHỌN NGAY LỘ TRÌNH PHÙ HỢP VỚI BẠN</h1>
+        <div class="row" style="margin: auto; border-bottom: 3px solid rgb(236, 201, 4); width: 100px;margin-bottom: 20px;"></div>
+
+        <div class="row">
+            <div class="col-sm-4" style="text-align: center; margin: auto;">
+                <table class="table table-striped" style="border: 1px solid black;">
+                    <thead>
+                        <tr>
+                            <th style="color: white; text-align: center; background-color: rgba(54, 43, 204, 0.767);">
+                                <h3 style="cursor: pointer;">Toàn thời gian 3 tháng</h3>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="text-align: center; font-weight: bold;">
+                                <h4>HUẤN LUYỆN TRỰC TIẾP</h4>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Huấn luyện full time giờ hành chính</td>
+                        </tr>
+                        <tr>
+                            <td>Nội dung online 24/7</td>
+                        </tr>
+                        <tr>
+                            <td>Chuyên gia hỗ trợ trực tiếp</td>
+                        </tr>
+                        <tr>
+                            <td>Forum trao đổi kiến thức</td>
+                        </tr>
+                        <tr>
+                            <td>Chuơng trình điều chỉnh phù hợp</td>
+                        </tr>
+                        <tr>
+                            <td><button style="width: 100px; background-color: orange; font-weight: bold; padding: 5px; border-radius: 5px; border: none;">Tham
+                                    gia</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-4" style="text-align: center; margin: auto;">
+                <table class="table table-striped" style="border: 1px solid black;">
+                    <thead>
+                        <tr>
+                            <th style="color: white; text-align: center; background-color: rgba(54, 43, 204, 0.767);">
+                                <h3 style="cursor: pointer;">Bán thời gian 4,5 tháng</h3>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="text-align: center;font-weight: bold;">
+                                <h4>HUẤN LUYỆN HỖN HỢP</h4>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Huấn luyện 3 buổi/tuần</td>
+                        </tr>
+                        <tr>
+                            <td>Nội dung online 24/7</td>
+                        </tr>
+                        <tr>
+                            <td>Chuyên gia hỗ trợ trực tiếp</td>
+                        </tr>
+                        <tr>
+                            <td>Forum trao đổi kiến thức</td>
+                        </tr>
+                        <tr>
+                            <td>Chuơng trình điều chỉnh phù hợp</td>
+                        </tr>
+                        <tr>
+                            <td><button style="width: 100px; background-color: orange; font-weight: bold; padding: 5px; border-radius: 5px; border: none;">Tham
+                                    gia</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-4" style="text-align: center; margin: auto;">
+                <table class="table table-striped" style="border: 1px solid black;">
+                    <thead>
+                        <tr>
+                            <th style="color: white; text-align: center; background-color: rgba(54, 43, 204, 0.767);">
+                                <h3 style="cursor: pointer;">Bán thời gian 6 tháng</h3>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="text-align: center; font-weight: bold;">
+                                <h4>HUẤN LUYỆN HỖN HỢP DÀI HẠN</h4>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Huấn luyện 2 buổi/tuần</td>
+                        </tr>
+                        <tr>
+                            <td>Nội dung online 24/7</td>
+                        </tr>
+                        <tr>
+                            <td>Chuyên gia hỗ trợ trực tiếp</td>
+                        </tr>
+                        <tr>
+                            <td>Forum trao đổi kiến thức</td>
+                        </tr>
+                        <tr>
+                            <td>Chuơng trình điều chỉnh phù hợp</td>
+                        </tr>
+                        <tr>
+                            <td><button style="width: 100px; background-color: orange; font-weight: bold; padding: 5px; border-radius: 5px; border: none;">Tham
+                                    gia</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- DN nói gì về chúng tôi -->
+    <div class="container text-center" style="padding: 0px;">
+        <h1 class="row" style="font-weight: bold; margin-left: 10px;
+        margin-right: 10px;">DOANH NGHIỆP NÓI VỀ CHÚNG TÔI</h1>
+        <div class="row" style="margin: auto; border-bottom: 3px solid rgb(236, 201, 4); width: 100px;margin-bottom: 20px;"></div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="./img/banner4.png" alt="Image">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./img/banner5.png" alt="Image">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <br>
+    </div>
+    <br>
+    <div class="container text-center" style="background-image: url(./img/bg.jpg); background-repeat: no-repeat;background-size: cover; background-color: blue;">
+        <div class="row" style="color: white; padding: 50px 30px; background-color: rgba(7, 7, 136, 0.349);">
+            <div class="col-sm-4">
+                <h3 class="row">16,656</h3>
+                <div class="row" style="margin: auto; border-bottom: 3px solid rgb(236, 201, 4); width: 50px;">
+                </div>
+                <p>Học viên</p>
+            </div>
+            <div class="col-sm-4">
+                <h3 class="row">36</h3>
+                <div class="row" style="margin: auto; border-bottom: 3px solid rgb(236, 201, 4); width: 50px;">
+                </div>
+                <p>Doanh nghiệp</p>
+            </div>
+            <div class="col-sm-4">
+                <h3 class="row">656</h3>
+                <div class="row" style="margin: auto; border-bottom: 3px solid rgb(236, 201, 4); width: 50px;">
+                </div>
+                <p>Dự án</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- DN liên kêt -->
+    <div class="container text-center" style="padding: 0px;">
+        <h1 class="row" style="font-weight: bold;margin-left: 10px;
+        margin-right: 10px;">DOANH NGHIỆP LIÊN KẾT VỚI CHÚNG TÔI</h1>
+        <div class="row" style="margin: auto; border-bottom: 3px solid rgb(236, 201, 4); width: 100px;margin-bottom: 20px;"></div>
+        <br>
+        <div class="row" style="margin-left: 10px;
+        margin-right: 10px;">
+            <div class="col-sm-2">
+                <p class="row">18 October</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="./img/Capture.PNG" alt="" style="border-radius: 50%; width: 150px; border: 10px solid rgba(189, 185, 185, 0.644);">
+            </div>
+            <div class="col-sm-7">
+                <h4 class="row" style="text-align: left; font-weight: bold;">70% cử nhân Công nghệ thông tin phải đào tạo lại</h4>
+                <p class="row" style="text-align: left;">by <a href="" style="text-decoration: none; color: tomato; font-weight: bold;">nld.com</a></p>
+                <p class="row" style="text-align: left;">Tại Hà Nội, Bộ Giáo dục và Đào tạo, Bộ Thông tin và truyền thông tổ chức toạ đàm phát triển nguồn nhận lực công nghệ thông tin - truyền thông trình độ cao</p>
+                <p class="row" style="text-align: left;"><a href="" style="text-decoration: none; color: orange;">Xem
+                        thêm >></a></p>
+            </div>
+        </div>
+        <br>
+        <div class="row" style="margin-left: 10px;
+        margin-right: 10px;">
+            <div class="col-sm-2">
+                <p class="row">24 March</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="./img/it.jpg" alt="" style="border-radius: 100%; width: 150px; height: 150px; border: 10px solid rgba(189, 185, 185, 0.644);">
+            </div>
+            <div class="col-sm-7">
+                <h4 class="row" style="text-align: left; font-weight: bold;">Năm 2021 Việt Nam cần 1,2 triệu nhân lực ngành CNTT</h4>
+                <p class="row" style="text-align: left;">by <a href="" style="text-decoration: none; color: tomato; font-weight: bold;">Báo điện tử Dân trí</a></p>
+                <p class="row" style="text-align: left;">Tại Hà Nội, Bộ Giáo dục và Đào tạo, Bộ Thông tin và truyền thông tổ chức toạ đàm phát triển nguồn nhận lực công nghệ thông tin - truyền thông trình độ cao</p>
+                <p class="row" style="text-align: left;"><a href="" style="text-decoration: none; color: orange;">Xem
+                        thêm >></a></p>
+            </div>
+        </div>
+        <br>
+        <div class="row" style="margin-left: 10px;
+        margin-right: 10px;">
+            <div class="col-sm-2">
+                <p class="row">18 January</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="./img/salary.jpg" alt="" style="border-radius: 50%; width: 150px; height: 150px; border: 10px solid rgba(189, 185, 185, 0.644);">
+            </div>
+            <div class="col-sm-7">
+                <h4 class="row" style="text-align: left; font-weight: bold;">Nhật Bản: Lương kỹ sư IT tăng vọt</h4>
+                <p class="row" style="text-align: left;">by <a href="" style="text-decoration: none; color: tomato; font-weight: bold;">Báo mới</a></p>
+                <p class="row" style="text-align: left;">Tại Hà Nội, Bộ Giáo dục và Đào tạo, Bộ Thông tin và truyền thông tổ chức toạ đàm phát triển nguồn nhận lực công nghệ thông tin - truyền thông trình độ cao</p>
+                <p class="row" style="text-align: left;"><a href="" style="text-decoration: none; color: orange;">Xem
+                        thêm >></a></p>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- Chân trang -->
+    <footer class="container text-center" style="background-color: white;">
+        <div class="row" style="justify-content: space-between;">
+            <div class="col-sm-4">
+                <h4 class="row" style="text-align: left; font-weight: bold;">Our Products & Service</h4>
+                <p class="row" style="text-align: left;"><a href="#" style="color: gray; text-decoration: none;">Home</a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h4 class="row" style="text-align: left;font-weight: bold;">Connect with us</h4>
+                <p class="row" style="text-align: left;">
+                    <a href="tel:0865359388" style="color: gray;text-decoration: none;">
+                        <span class="glyphicon glyphicon-earphone"></span> (+84) 865 359 388
+                    </a>
+                </p>
+                <p class="row" style="text-align: left;">
+                    <a href="mailto:info@vtiacademy.edu.vn" style="color: gray;text-decoration: none;">
+                        <span class="glyphicon glyphicon-envelope"></span> info@vtiacademy.edu.vn
+                    </a>
+                </p>
+                <p class="row" style="text-align: left;">
+                    <a href="https://vtiacademy.edu.vn/" target="_blank" style="color: gray;text-decoration: none;">
+                        <span class="fa fa-globe"></span> Website: vtiacademy.edu.vn
+                    </a>
+                </p>
+                <p class="row" style="text-align: left;">Fanpage: <a href="https://www.facebook.com/VTIAcademy/" target="_blank" style="text-decoration: none;">VTI Academy</a></p>
+            </div>
+            <div class="col-sm-4">
+                <h4 class="row" style="text-align: left;font-weight: bold;">VTI Academy <span style="font-weight: 500;">
+                        - About us</span></h4>
+                <p class="row" style="text-align: left;">Chúng tôi hướng tới việc đào tạo nguồn nhân lực CN chất lượng cao đáp ừng nhu cầu nguồn nhân lực cho doanh nghiệp trong và ngoài nước </p>
+                <p class="row" style="text-align: left;">Cung cấp giải pháp đào tạo chuyên nghiệp cho nhân viên tại các doanh nghiệp. Chúng tôi cam kết chất lượng đào tạo cùng dịch vụ đào tạo chuyên nghiệp </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copy right -->
+    <div class="container-fluid text-center" style="background-color: gray; height: 40px;">
+        <div class="row" style="line-height: 40px; text-align: center; ">
+            <p>Copyright © 2021 by <b>TrungKien Tran</b></p>
+        </div>
+    </div>
+</body>
+
+</html>
